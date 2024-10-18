@@ -18,7 +18,6 @@ function killshorts() {
     moreElementsToRemove.forEach(
         (moreElement) => moreElement.style.display = "none"
     );
-    console.log("Code is ran")
 }
 
 const observer = new MutationObserver(killshorts);
